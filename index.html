@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="tuneStyle.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+	<title>TuneStudio</title>
+</head>
+<body>
+
+	<!-- Navigation Bar starts here -->
+
+	<nav class="navBarItems">
+
+	    <div class = "logo-and-name">
+	        <span><a href=""><img class="logo-image" src="https://e7.pngegg.com/pngimages/919/660/png-clipart-%E7%8E%A9%E5%91%BD%E7%8C%9C%E6%AD%8C%E5%90%8D%E7%B6%93%E5%85%B8%E7%89%88-music-android-song-android-purple-game-thumbnail.png"></a></span>
+	        <span class="logo-name">TuneStudio</span>
+	    </div>
+
+        <div class="right-side-nav-content">
+            <form action="">
+                <input class = "search-bar" type="text" placeholder="Search..."/>
+                <span id="search-icon"><a href=""><i class="fas fa-search"></i></a></span>
+            </form>
+            <span id="bell-icon"><a href=""><i class="fas fa-bell"></i></a></span>
+            <span><a href=""><img class="user-image" src="https://www.pavilionweb.com/wp-content/uploads/2017/03/man-300x300.png"></a></span>
+        </div>
+
+        <!-- Done for making bars section -->
+
+        <div class="dropdown-menu text-right">
+        	<div class="bars">
+        		<i class="fa-solid fa-2x fa-bars"></i>
+        	</div>
+        	<div class="dropdown-list nav-menu">
+				<ul class="no-list-style">
+					<li><a href="">Search </a></li>
+					<li><a href="">Notifications</a></li>
+					<li><a href="">Account</a></li>
+				</ul>
+			</div>
+        </div>
+        
+		<!--  -->
+
+    </nav>
+
+    <!-- this checkbox below makes various items visible -->
+    <input type="checkbox" id="play">
+    <input type="checkbox" id="artist">
+
+	<div class="container">
+
+		<!-- this is the left side of artist information page -->
+
+		<div class="artist-info">
+
+			<div class="info-plus-image">
+				<div>
+					<img src="https://i.scdn.co/image/ab67706f000000035324fd190d03c6f3160c9bc8">
+				</div>
+				<div class="image-gradient"></div>
+				<div class="info">
+					<h1>Imagine Dragons</h1>
+
+					<h3>Pop Band</h3>
+
+					<p>Imagine Dragons is an American pop rock band from Las Vegas, Nevada, consisting of lead singer Dan Reynolds, guitarist Wayne Sermon, bassist Ben McKee and drummer Daniel Platzman.The band first gained exposure with the release of their single "It's Time", followed by their award-winning debut studio album Night Visions (2012), which resulted in the chart-topping singles "Radioactive" and "Demons".</p>
+
+					<div class="play-and-follow">
+						<label for="play">
+							<div class="play-all">
+								<p>PLAY ALL</p>
+							</div>
+						</label>
+
+						<div class="follow">Follow</div>
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="songs-below-info">
+
+				<div class="queue-item">
+					<li>01</li>
+					<img class = "queue-item-image"src="https://c.saavncdn.com/394/Moosetape-Hindi-2022-20220302145327-500x500.jpg">
+					<h5>Dance Monkey
+						<div class="subheading">Tones & I</div>
+					</h5>
+					<span class = "like-and-play">
+						<i class="fa-regular fa-heart"></i>
+						<label for="play"><i class="fa-solid fa-circle-play"></i></label>
+					</span>
+				</div>
+
+				<div class="queue-item">
+					<li>02</li>
+					<img class = "queue-item-image"src="https://ih1.redbubble.net/image.3663311580.9831/poster,504x498,f8f8f8-pad,600x600,f8f8f8.jpg">
+					<h5>Ciao Adios
+						<div class="subheading">Anne Marie</div>
+					</h5>
+					<span class = "like-and-play">
+						<i class="fa-regular fa-heart"></i>
+						<label for="play"><i class="fa-solid fa-circle-play"></i></label>
+					</span>
+				</div>
+
+				<div class="queue-item">
+					<li>03</li>
+					<img class = "queue-item-image"src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Alan-Walker-_Faded.jpg/640px-Alan-Walker-_Faded.jpg">
+					<h5>Hello World
+						<div class="subheading">Alan Walker</div>
+					</h5>
+					<span class = "like-and-play">
+						<i class="fa-regular fa-heart"></i>
+						<label for="play"><i class="fa-solid fa-circle-play"></i></label>
+					</span>
+				</div>
+
+				<div class="queue-item">
+					<li>04</li>
+					<img class = "queue-item-image"src="https://c.saavncdn.com/394/Moosetape-Hindi-2022-20220302145327-500x500.jpg">
+					<h5>Dance Monkey
+						<div class="subheading">Tones & I</div>
+					</h5>
+					<span class = "like-and-play">
+						<i class="fa-regular fa-heart"></i>
+						<label for="play"><i class="fa-solid fa-circle-play"></i></label>
+					</span>
+				</div>
+
+				<div class="queue-item">
+					<li>05</li>
+					<img class = "queue-item-image"src="https://ih1.redbubble.net/image.3663311580.9831/poster,504x498,f8f8f8-pad,600x600,f8f8f8.jpg">
+					<h5>Ciao Adios
+						<div class="subheading">Anne Marie</div>
+					</h5>
+					<span class = "like-and-play">
+						<i class="fa-regular fa-heart"></i>
+						<label for="play"><i class="fa-solid fa-circle-play"></i></label>
+					</span>
+				</div>
+
+				<div class="queue-item">
+					<li>06</li>
+					<img class = "queue-item-image"src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Alan-Walker-_Faded.jpg/640px-Alan-Walker-_Faded.jpg">
+					<h5>Hello World
+						<div class="subheading">Alan Walker</div>
+					</h5>
+					<span class = "like-and-play">
+						<i class="fa-regular fa-heart"></i>
+						<label for="play"><i class="fa-solid fa-circle-play"></i></label>
+					</span>
+				</div>
+
+
+				<div class="queue-item">
+					<li>07</li>
+					<img class = "queue-item-image"src="https://c.saavncdn.com/394/Moosetape-Hindi-2022-20220302145327-500x500.jpg">
+					<h5>Dance Monkey
+						<div class="subheading">Tones & I</div>
+					</h5>
+					<span class = "like-and-play">
+						<i class="fa-regular fa-heart"></i>
+						<label for="play"><i class="fa-solid fa-circle-play"></i></label>
+					</span>
+				</div>
+
+				<div class="queue-item">
+					<li>08</li>
+					<img class = "queue-item-image"src="https://ih1.redbubble.net/image.3663311580.9831/poster,504x498,f8f8f8-pad,600x600,f8f8f8.jpg">
+					<h5>Ciao Adios
+						<div class="subheading">Anne Marie</div>
+					</h5>
+					<span class = "like-and-play">
+						<i class="fa-regular fa-heart"></i>
+						<label for="play"><i class="fa-solid fa-circle-play"></i></label>
+					</span>
+				</div>
+
+				<div class="queue-item">
+					<li>09</li>
+					<img class = "queue-item-image"src="https://c.saavncdn.com/394/Moosetape-Hindi-2022-20220302145327-500x500.jpg">
+					<h5>Dance Monkey
+						<div class="subheading">Tones & I</div>
+					</h5>
+					<span class = "like-and-play">
+						<i class="fa-regular fa-heart"></i>
+						<label for="play"><i class="fa-solid fa-circle-play"></i></label>
+					</span>
+				</div>
+
+				<div class="queue-item">
+					<li>10</li>
+					<img class = "queue-item-image"src="https://c.saavncdn.com/394/Moosetape-Hindi-2022-20220302145327-500x500.jpg">
+					<h5>Dance Monkey
+						<div class="subheading">Tones & I</div>
+					</h5>
+					<span class = "like-and-play">
+						<i class="fa-regular fa-heart"></i>
+						<label for="play"><i class="fa-solid fa-circle-play"></i></label>
+					</span>
+				</div>
+
+			</div>
+		</div>
+
+		<!-- this is the right side of artist information page -->
+
+		<div class="similar-artists">
+
+			<div class = "right-section-heading">
+				<h1>Similar Artists</h1>
+				<span id="">
+					<select id="dropdown">
+  						<option value="queue" selected>View All</option>
+  						<option value="recently-played">Recently Played</option>
+  						<option value="silver">Favourites</option>
+					</select>
+				</span>
+			</div>
+
+			<div class="queue-items">
+				
+				<label for="play">
+						<div class="latest-release-item">
+							<div>
+								<img src="https://i.scdn.co/image/ab67706f000000035324fd190d03c6f3160c9bc8">
+							</div>
+							<h5>Imagine Dragons
+								<div class="subheading">Pop Band</div>
+							</h5>
+							<div class="three-dots">
+								<i class="fa-solid fa-ellipsis"></i>
+							</div>
+							<div class="duration">54 mins</div>
+						</div>
+				</label>
+
+				<label for="play">
+						<div class="latest-release-item">
+							<div>
+								<img src="https://i.scdn.co/image/ab67706c0000bebbe348615b7c6d0230922c7deb">
+							</div>
+							<h5>The Chainsmokers
+								<div class="subheading">Musical Duo</div>
+							</h5>
+							<div class="three-dots">
+								<i class="fa-solid fa-ellipsis"></i>
+							</div>
+							<div class="duration">54 mins</div>
+						</div>
+				</label>
+
+				<label for="play">
+						<div class="latest-release-item">
+							<div>
+								<img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/2f/Twenty_One_Pilots_-_My_Blood_Cover.jpg/220px-Twenty_One_Pilots_-_My_Blood_Cover.jpg">
+							</div>
+							<h5>Twenty One Pilots
+								<div class="subheading">Musical Duo</div>
+							</h5>
+							<div class="three-dots">
+								<i class="fa-solid fa-ellipsis"></i>
+							</div>
+							<div class="duration">54 mins</div>
+						</div>
+				</label>
+
+				<label for="play">
+						<div class="latest-release-item">
+							<div>
+								<img src="https://i.scdn.co/image/ab67706f000000035324fd190d03c6f3160c9bc8">
+							</div>
+							<h5>Imagine Dragons
+								<div class="subheading">Pop Band</div>
+							</h5>
+							<div class="three-dots">
+								<i class="fa-solid fa-ellipsis"></i>
+							</div>
+							<div class="duration">54 mins</div>
+						</div>
+				</label>
+
+				<label for="play">
+						<div class="latest-release-item">
+							<div>
+								<img src="https://i.scdn.co/image/ab67706c0000bebbe348615b7c6d0230922c7deb">
+							</div>
+							<h5>The Chainsmokers
+								<div class="subheading">Musical Duo</div>
+							</h5>
+							<div class="three-dots">
+								<i class="fa-solid fa-ellipsis"></i>
+							</div>
+							<div class="duration">54 mins</div>
+						</div>
+				</label>
+
+				<label for="play">
+						<div class="latest-release-item">
+							<div>
+								<img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/2f/Twenty_One_Pilots_-_My_Blood_Cover.jpg/220px-Twenty_One_Pilots_-_My_Blood_Cover.jpg">
+							</div>
+							<h5>Twenty One Pilots
+								<div class="subheading">Musical Duo</div>
+							</h5>
+							<div class="three-dots">
+								<i class="fa-solid fa-ellipsis"></i>
+							</div>
+							<div class="duration">54 mins</div>
+						</div>
+				</label>
+
+				<label for="play">
+						<div class="latest-release-item">
+							<div>
+								<img src="https://i.scdn.co/image/ab67706c0000bebbe348615b7c6d0230922c7deb">
+							</div>
+							<h5>The Chainsmokers
+								<div class="subheading">Pop Band</div>
+							</h5>
+							<div class="three-dots">
+								<i class="fa-solid fa-ellipsis"></i>
+							</div>
+							<div class="duration">54 mins</div>
+						</div>
+				</label>
+
+			</div>
+
+		</div>
+		
+		<div class = "left-section">
+
+			<!-- Three banners on the top start here -->
+
+			<div class="three-banners-section">
+				<div class="banner-items">
+
+					<label for="play">
+						<div class="banner-item">
+							<img src="https://cdn2.f-cdn.com/contestentries/1441475/26600781/5bdeac4a4a6bf_thumb900.jpg">
+						</div>
+					</label>
+
+					<label for="play">
+						<div class="banner-item">
+							<img src="https://cdn.dribbble.com/users/2984251/screenshots/11066944/media/44cf7ad0f6ef30931317bf0c57daf83b.jpg?compress=1&resize=400x300">
+						</div>
+					</label>
+
+					<label for="play">
+						<div class="banner-item">
+							<img src="https://i.scdn.co/image/ab67616d0000b273371a500edf3ebaad4fcdda31">
+						</div>
+					</label>
+
+				</div>
+			</div>
+
+			<!-- Latest release section starts here -->
+
+			<div class="latest-release-section">
+				<div class="latest-release-heading">
+					<span>Latest Release</span>
+				</div>
+				<div class="latest-release-items">
+
+					<label for="play">
+						<div class="latest-release-item">
+							<div>
+								<img src="https://i.scdn.co/image/ab67616d0000b273a3aa690dfdfbb27bfc2069e6">
+							</div>
+							<h5>Amplifier
+								<div class="subheading">Imran Khan</div>
+							</h5>
+							<div class="three-dots">
+								<i class="fa-solid fa-ellipsis"></i>
+							</div>
+							<div class="duration">04:28</div>
+						</div>
+					</label>
+
+
+					<label for="play">
+						<div class="latest-release-item">
+							<div>
+								<img src="https://i.scdn.co/image/ab67616d0000b273a3aa690dfdfbb27bfc2069e6">
+							</div>
+							<h5>Amplifier
+								<div class="subheading">Imran Khan</div>
+							</h5>
+							<div class="three-dots">
+								<i class="fa-solid fa-ellipsis"></i>
+							</div>
+							<div class="duration">04:28</div>
+						</div>
+					</label>
+
+					<label for="play">
+						<div class="latest-release-item">
+							<div>
+								<img src="https://i.scdn.co/image/ab67616d0000b273a3aa690dfdfbb27bfc2069e6">
+							</div>
+							<h5>Amplifier
+								<div class="subheading">Imran Khan</div>
+							</h5>
+							<div class="three-dots">
+								<i class="fa-solid fa-ellipsis"></i>
+							</div>
+							<div class="duration">04:28</div>
+						</div>
+					</label>
+
+					<label for="play">
+						<div class="latest-release-item">
+							<div>
+								<img src="https://i.scdn.co/image/ab67616d0000b273a3aa690dfdfbb27bfc2069e6">
+							</div>
+							<h5>Amplifier
+								<div class="subheading">Imran Khan</div>
+							</h5>
+							<div class="three-dots">
+								<i class="fa-solid fa-ellipsis"></i>
+							</div>
+							<div class="duration">04:28</div>
+						</div>
+					</label>
+
+					<label for="play">
+						<div class="latest-release-item">
+							<div>
+								<img src="https://i.scdn.co/image/ab67616d0000b273a3aa690dfdfbb27bfc2069e6">
+							</div>
+							<h5>Amplifier
+								<div class="subheading">Imran Khan</div>
+							</h5>
+							<div class="three-dots">
+								<i class="fa-solid fa-ellipsis"></i>
+							</div>
+							<div class="duration">04:28</div>
+						</div>
+					</label>
+
+					<label for="play">
+						<div class="latest-release-item">
+							<div>
+								<img src="https://i.scdn.co/image/ab67616d0000b273a3aa690dfdfbb27bfc2069e6">
+							</div>
+							<h5>Amplifier
+								<div class="subheading">Imran Khan</div>
+							</h5>
+							<div class="three-dots">
+								<i class="fa-solid fa-ellipsis"></i>
+							</div>
+							<div class="duration">04:28</div>
+						</div>
+					</label>
+
+				</div>
+			</div>
+
+			<!-- Popular Artists Section starts here -->
+
+			<div class = "popular-artists-section">
+				<div class="popular-artists-heading">
+					<span>Popular Artists</span>
+				</div>
+				<div class="popular-artists-items">
+
+					<div class="popular-artists-item">
+						<div class="artist-image">
+							<img src="https://i1.sndcdn.com/avatars-000237271265-7hhnty-t240x240.jpg">
+							<label for="artist"><i class="fa-solid fa-2x fa-play"></i></label>
+						</div>
+						<div><h5>Coldplay</h5></div>
+					</div>
+
+					<div class="popular-artists-item">
+						<div class="artist-image">
+							<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Sonu_Nigam121.jpg/240px-Sonu_Nigam121.jpg">
+							<label for="artist"><i class="fa-solid fa-2x fa-play"></i></label>
+						</div>
+						<div><h5>Sonu Nigam</h5></div>
+					</div>
+
+					<div class="popular-artists-item">
+						<div class="artist-image">
+							<img src="https://img-www.tf-cdn.com/artist/10/alan-walker.jpeg">
+							<label for="artist"><i class="fa-solid fa-2x fa-play"></i></label>
+						</div>
+						<div><h5>Alan Walker</h5></div>
+					</div>
+
+					<div class="popular-artists-item">
+						<div class="artist-image">
+							<img src="https://filmfare.wwmindia.com/thumb/content/2022/apr/arijitsingh11650885572.jpg?width=1200&height=900">
+							<label for="artist"><i class="fa-solid fa-2x fa-play"></i></label>
+						</div>
+						<div><h5>Arijit Singh</h5></div>
+					</div>
+
+					<div class="popular-artists-item">
+						<div class="artist-image">
+							<img src="https://i.scdn.co/image/ab6761610000e5eb0d890ffd0e0bea5f904f1a9f">
+							<label for="artist"><i class="fa-solid fa-2x fa-play"></i></label>
+						</div>
+						<div><h5>Charlie Puth</h5></div>
+					</div>
+
+					<div class="popular-artists-item">
+						<div class="artist-image">
+							<img src="https://i.guim.co.uk/img/media/73ec4373ed4f59ef1a1312176558752a5793529d/0_336_6552_3932/master/6552.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=b3a7881444203651628e94863df6c9de">
+							<label for="artist"><i class="fa-solid fa-2x fa-play"></i></label>
+						</div>
+						<div><h5>The Weeknd</h5></div>
+					</div>
+
+					<div class="popular-artists-item">
+						<div class="artist-image">
+							<img src="https://upload.wikimedia.org/wikipedia/en/2/23/Lofi_girl_logo.jpg">
+							<label for="artist"><i class="fa-solid fa-2x fa-play"></i></label>
+						</div>
+						<div><h5>Lofi Girl</h5></div>
+					</div>
+
+				</div>
+			</div>
+
+			<!-- Genre section starts here -->
+
+			<div class="genre-items">
+
+				<label for="play">
+					<div class="genre-item">
+						<img src="https://www.zuerich.com/sites/default/files/styles/582_437_focal_scale_crop/public/category-image/platzhalter_party_1280x960.jpg?h=1597416073">
+						<div class="genre-details">
+                       		 <p>
+                        	    Party
+                        	</p>
+                    	</div>
+					</div>
+				</label>
+
+				<label for="play">
+					<div class="genre-item">
+						<img src="https://www.visittheusa.com/sites/default/files/styles/hero_l/public/images/hero_media_image/2018-03/1f193ea1be6ff6877e025ed15bc58e04.jpeg?itok=9PJ7t-bf">
+						<div class="genre-details">
+	                        <p>
+	                            Electronic
+	                        </p>
+	                    </div>
+					</div>
+				</label>
+
+				<label for="play">
+					<div class="genre-item">
+						<img src="https://media.cntraveler.com/photos/5edfc029b16364ea435ca862/4:3/w_2664,h_1998,c_limit/Roadtrip-2020-GettyImages-1151192650.jpg">
+						<div class="genre-details">
+	                        <p>
+	                            Road Trip
+	                        </p>
+	                    </div>
+					</div>
+				</label>
+				
+			</div>
+
+			<!-- Latest English Section starts here -->
+
+			<div class="latest-section">
+				<div class="latest-section-heading">
+					<span>Latest English</span>
+				</div>
+				<div class="latest-section-items">
+					<div class="latest-section-item">
+						<div><img src="https://ih1.redbubble.net/image.3663311580.9831/poster,504x498,f8f8f8-pad,600x600,f8f8f8.jpg"></div>
+						<h5>Caio Adios
+							<div class="subheading">Anne Marie</div>
+						</h5>
+					</div>
+
+					<div class="latest-section-item">
+						<div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Alan-Walker-_Faded.jpg/640px-Alan-Walker-_Faded.jpg"></div>
+						<h5>Hello World
+							<div class="subheading">Alan Walker</div>
+						</h5>
+					</div>
+
+					<div class="latest-section-item">
+						<div><img src="https://upload.wikimedia.org/wikipedia/en/a/a2/Coldplay_-_My_Universe.png"></div>
+						<h5>My Universe
+							<div class="subheading">Coldplay</div>
+						</h5>
+					</div>
+
+					<div class="latest-section-item">
+						<div><img src="https://ih1.redbubble.net/image.3663311580.9831/poster,504x498,f8f8f8-pad,600x600,f8f8f8.jpg"></div>
+						<h5>Caio Adios
+							<div class="subheading">Anne Marie</div>
+						</h5>
+					</div>
+
+					<div class="latest-section-item">
+						<div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Alan-Walker-_Faded.jpg/640px-Alan-Walker-_Faded.jpg"></div>
+						<h5>Hello World
+							<div class="subheading">Alan Walker</div>
+						</h5>
+					</div>
+
+					<div class="latest-section-item">
+						<div><img src="https://upload.wikimedia.org/wikipedia/en/a/a2/Coldplay_-_My_Universe.png"></div>
+						<h5>My Universe
+							<div class="subheading">Coldplay</div>
+						</h5>
+					</div>
+
+					<div class="latest-section-item">
+						<div><img src="https://ih1.redbubble.net/image.3663311580.9831/poster,504x498,f8f8f8-pad,600x600,f8f8f8.jpg"></div>
+						<h5>Caio Adios
+							<div class="subheading">Anne Marie</div>
+						</h5>
+					</div>
+
+				</div>
+			</div>
+
+			<!-- Latest Hindi Section -->
+
+			<div class="latest-section">
+				<div class="latest-section-heading">
+					<span>Latest Hindi</span>
+				</div>
+				<div class="latest-section-items">
+					<div class="latest-section-item">
+						<div><img src="https://i1.sndcdn.com/artworks-000234660209-69hvb1-t500x500.jpg"></div>
+						<h5>Amplifier
+							<div class="subheading">Imran Khan</div>
+						</h5>
+					</div>
+
+					<div class="latest-section-item">
+						<div><img src="https://i.scdn.co/image/ab67616d0000b2735b74e703d6ffb2ea16860c86"></div>
+						<h5>Excuses
+							<div class="subheading">Gurinder Gill</div>
+						</h5>
+					</div>
+
+					<div class="latest-section-item">
+						<div><img src="https://c.saavncdn.com/394/Moosetape-Hindi-2022-20220302145327-500x500.jpg"></div>
+						<h5>295
+							<div class="subheading">Sidhu Moosewala</div>
+						</h5>
+					</div>
+
+					<div class="latest-section-item">
+						<div><img src="https://i1.sndcdn.com/artworks-000234660209-69hvb1-t500x500.jpg"></div>
+						<h5>Amplifier
+							<div class="subheading">Imran Khan</div>
+						</h5>
+					</div>
+
+					<div class="latest-section-item">
+						<div><img src="https://i.scdn.co/image/ab67616d0000b2735b74e703d6ffb2ea16860c86"></div>
+						<h5>Excuses
+							<div class="subheading">Gurinder Gill</div>
+						</h5>
+					</div>
+
+					<div class="latest-section-item">
+						<div><img src="https://c.saavncdn.com/394/Moosetape-Hindi-2022-20220302145327-500x500.jpg"></div>
+						<h5>295
+							<div class="subheading">Sidhu Moosewala</div>
+						</h5>
+					</div>
+
+					<div class="latest-section-item">
+						<div><img src="https://i1.sndcdn.com/artworks-000234660209-69hvb1-t500x500.jpg"></div>
+						<h5>Amplifier
+							<div class="subheading">Imran Khan</div>
+						</h5>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<!-- Right section starts here -->
+
+		<div class = "right-section">
+			<div class = "right-section-heading">
+				<h1>Queue</h1>
+				<span id="">
+					<select id="dropdown">
+  						<option value="queue" selected>Queue</option>
+  						<option value="recently-played">PlayList</option>
+  						<option value="silver">Favourites</option>
+					</select>
+				</span>
+			</div>
+			<div class = "queue-items">
+				<div class="queue-item">
+					<li>01</li>
+					<img class = "queue-item-image"src="https://c.saavncdn.com/394/Moosetape-Hindi-2022-20220302145327-500x500.jpg">
+					<h5>Dance Monkey
+						<div class="subheading">Tones & I</div>
+					</h5>
+					<span class = "like-and-play">
+						<i class="fa-regular fa-heart"></i>
+						<label for="play"><i class="fa-solid fa-circle-play"></i></label>
+					</span>
+				</div>
+
+				<div class="queue-item">
+					<li>02</li>
+					<img class = "queue-item-image"src="https://ih1.redbubble.net/image.3663311580.9831/poster,504x498,f8f8f8-pad,600x600,f8f8f8.jpg">
+					<h5>Ciao Adios
+						<div class="subheading">Anne Marie</div>
+					</h5>
+					<span class = "like-and-play">
+						<i class="fa-regular fa-heart"></i>
+						<label for="play"><i class="fa-solid fa-circle-play"></i></label>
+					</span>
+				</div>
+
+				<div class="queue-item">
+					<li>03</li>
+					<img class = "queue-item-image"src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Alan-Walker-_Faded.jpg/640px-Alan-Walker-_Faded.jpg">
+					<h5>Hello World
+						<div class="subheading">Alan Walker</div>
+					</h5>
+					<span class = "like-and-play">
+						<i class="fa-regular fa-heart"></i>
+						<label for="play"><i class="fa-solid fa-circle-play"></i></label>
+					</span>
+				</div>
+
+				<div class="queue-item">
+					<li>04</li>
+					<img class = "queue-item-image"src="https://c.saavncdn.com/394/Moosetape-Hindi-2022-20220302145327-500x500.jpg">
+					<h5>Dance Monkey
+						<div class="subheading">Tones & I</div>
+					</h5>
+					<span class = "like-and-play">
+						<i class="fa-regular fa-heart"></i>
+						<label for="play"><i class="fa-solid fa-circle-play"></i></label>
+					</span>
+				</div>
+
+				<div class="queue-item">
+					<li>05</li>
+					<img class = "queue-item-image"src="https://ih1.redbubble.net/image.3663311580.9831/poster,504x498,f8f8f8-pad,600x600,f8f8f8.jpg">
+					<h5>Ciao Adios
+						<div class="subheading">Anne Marie</div>
+					</h5>
+					<span class = "like-and-play">
+						<i class="fa-regular fa-heart"></i>
+						<label for="play"><i class="fa-solid fa-circle-play"></i></label>
+					</span>
+				</div>
+
+				<div class="queue-item">
+					<li>06</li>
+					<img class = "queue-item-image"src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Alan-Walker-_Faded.jpg/640px-Alan-Walker-_Faded.jpg">
+					<h5>Hello World
+						<div class="subheading">Alan Walker</div>
+					</h5>
+					<span class = "like-and-play">
+						<i class="fa-regular fa-heart"></i>
+						<label for="play"><i class="fa-solid fa-circle-play"></i></label>
+					</span>
+				</div>
+
+
+				<div class="queue-item">
+					<li>07</li>
+					<img class = "queue-item-image"src="https://c.saavncdn.com/394/Moosetape-Hindi-2022-20220302145327-500x500.jpg">
+					<h5>Dance Monkey
+						<div class="subheading">Tones & I</div>
+					</h5>
+					<span class = "like-and-play">
+						<i class="fa-regular fa-heart"></i>
+						<label for="play"><i class="fa-solid fa-circle-play"></i></label>
+					</span>
+				</div>
+
+				<div class="queue-item">
+					<li>08</li>
+					<img class = "queue-item-image"src="https://ih1.redbubble.net/image.3663311580.9831/poster,504x498,f8f8f8-pad,600x600,f8f8f8.jpg">
+					<h5>Ciao Adios
+						<div class="subheading">Anne Marie</div>
+					</h5>
+					<span class = "like-and-play">
+						<i class="fa-regular fa-heart"></i>
+						<label for="play"><i class="fa-solid fa-circle-play"></i></label>
+					</span>
+				</div>
+
+				<div class="queue-item">
+					<li>09</li>
+					<img class = "queue-item-image"src="https://c.saavncdn.com/394/Moosetape-Hindi-2022-20220302145327-500x500.jpg">
+					<h5>Dance Monkey
+						<div class="subheading">Tones & I</div>
+					</h5>
+					<span class = "like-and-play">
+						<i class="fa-regular fa-heart"></i>
+						<label for="play"><i class="fa-solid fa-circle-play"></i></label>
+					</span>
+				</div>
+
+				<div class="queue-item">
+					<li>10</li>
+					<img class = "queue-item-image"src="https://c.saavncdn.com/394/Moosetape-Hindi-2022-20220302145327-500x500.jpg">
+					<h5>Dance Monkey
+						<div class="subheading">Tones & I</div>
+					</h5>
+					<span class = "like-and-play">
+						<i class="fa-regular fa-heart"></i>
+						<label for="play"><i class="fa-solid fa-circle-play"></i></label>
+					</span>
+				</div>
+
+				<div class="queue-item">
+					<li>11</li>
+					<img class = "queue-item-image"src="https://ih1.redbubble.net/image.3663311580.9831/poster,504x498,f8f8f8-pad,600x600,f8f8f8.jpg">
+					<h5>Ciao Adios
+						<div class="subheading">Anne Marie</div>
+					</h5>
+					<span class = "like-and-play">
+						<i class="fa-regular fa-heart"></i>
+						<label for="play"><i class="fa-solid fa-circle-play"></i></label>
+					</span>
+				</div>
+
+				<div class="queue-item">
+					<li>12</li>
+					<img class = "queue-item-image"src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Alan-Walker-_Faded.jpg/640px-Alan-Walker-_Faded.jpg">
+					<h5>Hello World
+						<div class="subheading">Alan Walker</div>
+					</h5>
+					<span class = "like-and-play">
+						<i class="fa-regular fa-heart"></i>
+						<label for="play"><i class="fa-solid fa-circle-play"></i></label>
+					</span>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+	<!-- Bottom Section starts here -->
+
+	<div class="bottom">
+		<div>
+			<span>02:14</span>
+			<input type="range" name="range" id="progressBar" min = "0" max="100">
+			<span>04:28</span>
+		</div>
+		<div class="icons">
+			<i class="fa-solid fa-shuffle"></i>
+			<i class="fa-solid fa-backward"></i>
+			<input type="checkbox" id="pause-song">
+			<span class = "pause-icon"><label for="pause-song"><i class="fa-solid  fa-pause"></i></label></span>
+			<span class = "play-icon"><label for="pause-song"><i class="fa-solid fa-play"></i></label></span>
+			<i class="fa-solid fa-forward"></i>
+			<i class="fa-solid fa-rotate-left"></i>
+		</div>
+		<div class="songInfo">
+			<img src="https://c.saavncdn.com/394/Moosetape-Hindi-2022-20220302145327-500x500.jpg">
+			<span class="name"> 295 - Sidhu Moose-wala</span>
+			<span><i class="fa-regular fa-heart"></i></span>
+			<span><i class="fa-solid fa-ban"></i></span>
+		</div>
+
+		<div class="volume-rocker">
+			<i class="fa-solid fa-1x fa-bars"></i>
+			<i class="fa-solid fa-1x fa-volume-high"></i>
+			<input type="range" name="range" id="volumeBar" min = "0" max="100">
+		</div>	
+	</div>
+	
+</body>
+</html>
